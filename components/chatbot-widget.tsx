@@ -192,7 +192,7 @@ export function ChatbotWidget() {
         {/* Iframe chatbot */}
         <div className="flex-1 relative">
           <iframe
-            src="https://cdn.botpress.cloud/webchat/v3.6/shareable.html?conf…s.bpcontent.cloud/2026/03/28/05/20260328051717-LZPMOQCH.json
+            src="https://cdn.botpress.cloud/webchat/v3.6/shareable.html?conf…s.bpcontent.cloud/2026/03/28/05/20260328051717-LZPMOQCH.json"
 "
             className="absolute inset-0 w-full h-full border-0"
             title="Chatbot tư vấn pháp lý"
