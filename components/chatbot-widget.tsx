@@ -23,13 +23,13 @@ export function ChatbotWidget() {
 
       {/* Chatbot Container */}
       {isOpen && (
-        <div className="fixed bottom-24 right-6 w-96 h-96 bg-white rounded-lg shadow-2xl z-40 flex flex-col">
-          <div className="bg-primary text-white p-4 rounded-t-lg">
-            <h3 className="font-semibold">Chatbot Hỗ Trợ</h3>
-          </div>
-          <div className="flex-1 p-4 flex items-center justify-center text-gray-500">
-            <p>Chatbot sẵn sàng hỗ trợ bạn</p>
-          </div>
+        <div className="fixed bottom-24 right-6 w-96 h-96 bg-white rounded-lg shadow-2xl z-40 overflow-hidden">
+          <iframe
+            src="https://cdn.botpress.cloud/webchat/v3.5/shareable.html?configUrl=https://files.bpcontent.cloud/2026/01/24/14/20260124142242-0E3ZCWBR.json"
+            className="w-full h-full border-0"
+            title="Chatbot tư vấn pháp lý"
+            allowFullScreen
+          />
         </div>
       )}
     </>
