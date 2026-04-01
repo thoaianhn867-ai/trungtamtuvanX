@@ -5,7 +5,6 @@ import { NewsSection } from "@/components/news-section"
 import { FAQSection } from "@/components/faq-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
-import { ChatbotWidget } from "@/components/chatbot-widget"
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
         <ContactSection />
       </main>
       <Footer />
-      <ChatbotWidget />
     </div>
   )
 }
